@@ -28,4 +28,11 @@ public class MyLinkedList {
     public void setCurrentsize(int currentsize) {
         this.currentsize = currentsize;
     }
+
+    public MyLinkedList() {
+        this.head=null;
+        this.tail=null;
+        currentsize=0;
+    }
 }
+
