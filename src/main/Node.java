@@ -22,13 +22,17 @@ public class Node {
     }
 
     public Node() {
+        this.data=0;
+        this.next=null;
     }
 
     public Node(int data) {
         this.data = data;
+        this.next=null;
     }
 
-    public Node(Node next) {
+    public Node(int data , Node next) {
         this.next = next;
+        this.data=data;
     }
 }
