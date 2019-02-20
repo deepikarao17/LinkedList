@@ -21,6 +21,9 @@ public class Node {
         this.next = next;
     }
 
+    public Node() {
+    }
+
     public Node(int data) {
         this.data = data;
     }
